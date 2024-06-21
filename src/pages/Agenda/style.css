@@ -1,0 +1,13 @@
+.ui.table thead th {
+    color: #4b5563;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.whitespace-pre {
+    white-space: pre;
+}

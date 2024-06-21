@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+input {
+  background-color: transparent;
+  outline: none;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  /* font-family: 'Inter', sans-serif; */
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+}
+
+*::-webkit-scrollbar-track {
+  display: none;
+
+  /* -webkit-background-clip: red; */
+}
+
+/* 
+
+*::-webkit-scrollbar {
+  display: none;
+  background-color: black;
+  width: 2px;
+}
+ */
+
+.border::-webkit-scrollbar {
+  display: block;
+  /* background-color: black; */
+  width: 2px;
+}
+
+.border::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgb(137, 138, 153);
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+
+
+.my-masonry-grid {
+  display: -webkit-box;
+  /* Not needed if autoprefixing */
+  display: -ms-flexbox;
+  /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -10px;
+  /* gutter size offset */
+  width: auto;
+}
+
+.my-masonry-grid_column {
+  padding-left: 10px;
+  /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column>div {
+  /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 30px;
+}
+
+
+
+.productNam {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+
+
+
+tr {
+  color: #4b5563;
+}
+
+/* 
+
+
+gray: {
+  '50': '#f9fafb'
+  '100': '#f3f4f6'
+  '200': '#e5e7eb'
+  '300': '#d1d5db'
+  '400': '#9ca3af'
+  '500': '#6b7280'
+  '600': '#4b5563'
+  '700': '#374151'
+  '800': '#1f2937'
+  '900': '#111827'
+} */

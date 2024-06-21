@@ -1,0 +1,6 @@
+.dotsBG {
+    background-image: url(../../../public/assets/dots.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

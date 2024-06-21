@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+/* Your CSS file (e.g., styles.css) */
+/* This CSS class should match the one used in the ScheduleComponent */
+.custom-schedule .e-content-wrap {
+  /* Set the maximum height for vertical scrolling */
+  max-height: 400px;
+  /* Adjust the height as per your requirements */
+  overflow-y: auto;
+}
+
+/* Optional: If you want to hide the horizontal scrollbar */
+.custom-schedule .e-header-month {
+  overflow-x: hidden;
+}
